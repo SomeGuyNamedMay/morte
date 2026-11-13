@@ -16,8 +16,8 @@
         {
           default = pkgs.mkShell {
             packages = [
-              pkgs.haskellPackages.ghc
-              pkgs.cabal-install
+              pkgs.rustc
+              pkgs.cargo
             ];
           };
         });
